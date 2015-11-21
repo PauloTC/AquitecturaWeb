@@ -2,8 +2,9 @@ doctype html
 html(lang="es")
 	head
 		meta(charset="UTF-8")
-		link(rel="stylesheet", href="public/css/style.css")
-		title Dota 2
+		link(rel="stylesheet", href="public/css/style.css", media="screen")
+		link(rel="stylesheet", href="public/css/print.css", media="print")
+		title AquitecturaWeb
 	body
 		div(class ="wrapper") <!-- envoltura -->
 			nav <!-- Top nav -->
@@ -22,36 +23,40 @@ html(lang="es")
 						li
 							a(href="#") Contact Us
 		header <!-- header -->
-			div(class="diseño")
+			div(class="plandesign")
 				img(src="./public/img/plans.png")
-			h1 Aquitectura Web
+			h1 
+				a(href="#") Aquitectura Web
 			p Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
 		section(class="main")
-			section(class="content")
+			section(class="content") <!-- .content -->
 				article
 					h2
 						a(href="#") First Article Title
 					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
 				article
 					h2
-						a(href="#") First Article Title
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+						a(href="#") Second Article Title
+					p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+					p Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+					p Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 			aside(class="sidebar")
 				h3 Thing To Do
-					ul
-						li
-							a(href="#") Play Games and Network
-						li
-							a(href="#") Chat With Friends
-						li
-							a(href="#") Swap Exciting Stories
-						li
-							a(href="#") Sell Tons of Your Stuff
-						li
-							a(href="#") Buy Stuff You Don't Need
-						li
-							a(href="#") Trade Stuff With Others
+				ul
+					li
+						a(href="#") Play Games and Network
+					li
+						a(href="#") Chat With Friends
+					li
+						a(href="#") Swap Exciting Stories
+					li
+						a(href="#") Sell Tons of Your Stuff
+					li
+						a(href="#") Buy Stuff You Don't Need
+					li
+						a(href="#") Trade Stuff With Others
 				h3 Sponsors
+
 				img(src="./public/img/ad125.jpg" alt="")
 				img(src="./public/img/ad125.jpg" alt="")
 				br
@@ -62,42 +67,42 @@ html(lang="es")
 				h3 Contact Whit Us
 				ul
 					li
-						a(href="#") Twitter
+						a(href="https://twitter.com/Backertend", target = "_blank") Twitter
 					li
-						a(href="#") Facebook
+						a(href="https://www.facebook.com/paulo.tejada.7", target = "_blank") Facebook
 			footer
-			section(class="footer-area")
-				section(class="footer-outer-block")
-					aside(class="footer-segment")
-						h4 Friends
-						ul
-							li
-								a(href="#") one linkylink
-							li
-								a(href="#") two linkylink
-							li
-								a(href="#") three linkylink
+				section(class="footer-area")
+					section(class="footer-outer-block")
+						aside(class="footer-segment")
+							h4 Friends
+							ul
+								li
+									a(href="#") one linkylink
+								li
+									a(href="#") two linkylink
+								li
+									a(href="#") three linkylink
 
-					aside(class="footer-segment")
-						h4 Friends
-						ul
-							li
-								a(href="#") one linkylink
-							li
-								a(href="#") two linkylink
-							li
-								a(href="#") three linkylink
-					aside(class="footer-segment")
-						h4 Friends
-						ul
-							li
-								a(href="#") one linkylink
-							li
-								a(href="#") two linkylink
-							li
-								a(href="#") three linkylink
-					aside(class="footer-segment")
-						h4 Blahdyblah
+						aside(class="footer-segment")
+							h4 Awesome Stuff
+							ul
+								li
+									a(href="#") one linkylink
+								li
+									a(href="#") two linkylink
+								li
+									a(href="#") three linkylink
+						aside(class="footer-segment")
+							h4 Coolness
+							ul
+								li
+									a(href="#") one linkylink
+								li
+									a(href="#") two linkylink
+								li
+									a(href="#") three linkylink
+						aside(class="footer-segment")
+							h4 Blahdyblah
 							p Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
 
 
